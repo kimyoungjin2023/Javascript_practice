@@ -10,6 +10,8 @@ function wrapper(func){
     console.log(result)
 }
 
+// 함수 그 자체
+add
 
 // let result = add(1,2);
 // console.log(result);
@@ -24,3 +26,11 @@ console.log(add(1,2));
 
 wrapper(add);
 // console.log(add(1, 2, 3)); //3번째 매개변수는 무시됨
+
+//print라는 새로운 함수 정의
+function print(message){
+    console.log(message);
+}
+
+const printResult = print("hello");
+console.log(printResult);
